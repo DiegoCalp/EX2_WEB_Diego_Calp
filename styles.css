@@ -1,0 +1,193 @@
+#principal_title {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-size: 7rem;
+        font-style: normal;
+        color: #F0F8FF;
+}
+
+body{
+        text-align: center;
+        margin:0;
+}
+
+p{
+        font-family: "Nothing You Could Do", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;          
+}
+
+#hello{
+        width: 20rem;
+        height:13rem;
+}
+
+.first_div
+{
+        background-color: #7BA7BD;
+        padding-top: 100px;
+}
+
+.hobbies_imgs
+{
+        width:15rem;
+        height: 15rem;
+        border-radius: 100%;
+        padding-right: 30px;
+}
+.clouds{
+        height: 10rem;
+        width: 15rem;
+}
+#mountain{
+        height: 25rem;
+        width: 30rem;
+}
+
+h2{
+
+        font-family: "Ramaraja", serif;
+        font-weight: 400;
+        font-size: 3rem;
+        font-style: normal;
+        color:#E5E4E2;
+        margin-bottom: 0;              
+}
+
+h3{
+        font-family: "Ramaraja", serif;
+        font-weight: 400;
+        font-size: 4rem;
+        color:#003262;
+}
+
+h4{
+        font-family: "Ramaraja", serif;
+        font-weight: 400;
+        font-size: 3rem;
+        color: #7BA7BD;
+}
+
+hr {
+        border: none;
+        border-top: 7px dotted #7BA7BD;
+        width:90%;
+}
+.skills_hobbies_div {
+        display: grid;
+        gap: 2rem;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+.hobby_div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 0rem;
+    }
+
+#contact_button{
+        background-color:#7BA7BD;
+        color:#F0F8FF;
+        border-radius: 30px;
+        font-size: 2rem;
+        padding: 8px;
+}
+#contact_button:hover
+{
+        font-size: 2.5rem;
+        background-color: #F0F8FF;
+        color:#003262;
+}
+
+.last_div{
+        background-color: #7BA7BD;
+        padding: 30px;
+        padding-right: 0px;
+}
+
+#copyrights{
+        margin:0;
+        padding-top: 30px;
+        font-family: "Ramaraja", serif;
+        font-weight: 400;
+        font-size: 1rem;
+
+}
+
+.links{
+        padding: 2rem;
+}
+
+@media (max-width: 600px) {
+
+        #principal_title {
+            font-size: 4rem;
+        }
+    
+        h2 {
+            font-size: 2rem;
+        }
+    
+        .clouds {
+            width: 10rem;
+            height: 7rem;
+        }
+    
+        #mountain {
+            width: 100%;
+            height: auto;
+        }
+    
+        #hello {
+            width: 15rem;
+            height: auto;
+        }
+    
+        .hobbies_imgs {
+            width: 10rem;
+            height: 10rem;
+            padding-right: 0;
+            margin-bottom: 1rem;
+        }
+    
+        .skills_hobbies_div {
+            width: 90%;
+        }
+    
+        .hobby_div {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        h3 {
+            font-size: 2.5rem;
+        }
+    
+        h4 {
+            font-size: 2rem;
+        }
+    
+        p {
+            font-size: 1.5rem;
+        }
+    
+        #contact_button {
+            font-size: 1.5rem;
+            padding: 6px;
+        }
+    
+        #contact_button:hover {
+            font-size: 2rem;
+        }
+    
+        .links {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+    
